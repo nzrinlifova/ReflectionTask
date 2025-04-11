@@ -11,7 +11,7 @@ namespace ReflectionTask
         private string id;
         private string name ;
         private string surname ;
-        private static string age ;
+        private static int age ;
         public User()
         {
             
@@ -20,7 +20,7 @@ namespace ReflectionTask
         {
             Console.WriteLine($"{name} {surname}");
         }
-        public static void ChangeAge(string newage)
+        public static void ChangeAge(int newage)
         {
             age = newage;
         }
